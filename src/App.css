@@ -1,0 +1,106 @@
+.mainContainer {
+  text-align: center;
+  padding: 1%;
+  width: 60%;
+  margin-left: 20%;
+  background-color: #ECEFF1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ECEFF1;
+}
+
+.App {
+  
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.text {
+  color: #9E9E9E;
+  margin: 5px 0px;
+}
+
+.title {
+  color: #111;
+  font-size: 1.5em;
+  margin-bottom: 5;
+}
+
+.promptInput {
+  border: 0.01px solid #ccc;
+  padding: 10px 10px;
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+.keyInput {
+  border: 0.01px solid #ccc;
+  padding: 10px 10px;
+  width: 58%;
+  margin-bottom: 10px; 
+}
+
+.submitButton {
+  background-color: #111;
+  color: #fff;
+  padding: 10px 10px;
+  border: 0.01px solid transparent;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.submitButton:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  opacity: 0.3;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 5px;
+  color: #9E9E9E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.custom-file-upload {
+  background-color: #111;
+  display: inline-block;
+  color: #fff;
+  padding: 9px 10px;
+  margin-left: 5px;
+  border: 0.01px solid transparent;
+  opacity: 0.6;
+  transition: 0.3s;
+  font-size: 0.9em;
+}
+.custom-file-upload:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}

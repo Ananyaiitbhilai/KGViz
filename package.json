@@ -1,0 +1,57 @@
+{
+  "name": "kgviz",
+  "version": "0.2.1",
+  "author": {
+    "name": "Ananya",
+    "email": "ananyahooda04@gmail.com",
+    "url": "http://ananyahooda.in"
+  },
+  "license": "MIT License",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "cytoscape": "^3.23.0",
+    "cytoscape-avsdf": "^1.0.0",
+    "cytoscape-dagre": "^2.5.0",
+    "cytoscape-fcose": "^2.2.0",
+    "cytoscape-panzoom": "^2.5.3",
+    "lodash": "^4.17.21",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "python-shell": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
