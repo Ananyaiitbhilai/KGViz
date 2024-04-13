@@ -13,15 +13,18 @@ https://github.com/Ananyaiitbhilai/KGViz/assets/65886348/720435f5-11aa-4f88-a81a
 
 ## Requirements
 - For running the backend app, please refer to `src\LLM\requirements.txt`. Create a virtual environment to install all the dependecies. `Python version >= 3.8`
+- In backend only, you might need to have LLMs downloaded locally in gguf Format.
 - For Frontend
   1. `npm >= v7.19.1`
   2. `node >= v14.17.4`
+
 
 ## How to run
 #### Starting Backend
 1. Open CLI/terminal, activate virtual environment with all the required dependencies installed.
 2. Navigate to Flask app at `src\LLM`, run command `python LLMtriple.py`
 3. You have started the Flask app the API shall be accessible at `http://localhost:8001/extract_triples`.
+4. Please note, in `LLMtriple.py` file you should give path of your downloaded LLM (gguf format only).
 
 The backend returns triples in the format of JSON objects:
 ```
