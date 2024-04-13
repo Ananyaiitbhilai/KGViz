@@ -119,7 +119,7 @@ function App() {
       <div className="footer">
         <p>Copyrights © {new Date().getFullYear()}</p>
         <a
-          href="https://github.com/Ananyaiitbhilai/KGViz"
+          href="https://github.com/Ananyaiitbhilai/KGViz/tree/main"
           target="_blank"
           rel="noreferrer"
         >
