@@ -9,10 +9,9 @@ It transforms text into RDF triples, which are then visually differentiated base
 - Inverse relations
 - Transitive relations
 - Negation handling
-- Event identification 
-⁠- Mitigating biases, class imbalance
-⁠- Generalising well on every type of data
-
+- Event identification
+- Mitigating biases, class imbalance
+- Generalising well on every type of data
 
 https://github.com/Ananyaiitbhilai/KGViz/assets/65886348/720435f5-11aa-4f88-a81a-1f96dddf3e06
 
