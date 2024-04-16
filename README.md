@@ -5,6 +5,15 @@ The application's core functionality lies in its ability to parse through vast a
 
 It transforms text into RDF triples, which are then visually differentiated based on their occurrence frequency. This method results in a vibrant and informative display that not only enhances data comprehension but also adds an aesthetic dimension to the analysis. Users can effortlessly download these RDF triples in a JSON format, facilitating seamless integration and further analytical exploration. This feature ensures that the data is not only visually appealing but also practical and ready for use in various applications, from data science projects to software development.
 
+### Features
+- Inverse relations
+- Transitive relations
+- Negation handling
+- Event identification 
+⁠- Mitigating biases, class imbalance
+⁠- Generalising well on every type of data
+
+
 https://github.com/Ananyaiitbhilai/KGViz/assets/65886348/720435f5-11aa-4f88-a81a-1f96dddf3e06
 
 ## Architecture
