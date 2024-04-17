@@ -51,7 +51,7 @@ The backend returns triples in the format of JSON objects:
 ```
 #### Starting Frontend
 1. Open another CLI/terminal concurrently, and run `npm install`
-2. Then, run `npm run start` to start the project and navigate to `localhost:3000``
+2. Then, run `npm run start` to start the project and navigate to `localhost:3000`
 4. Add your `Prompt` and hit `Generate`.
 5. The graph will be populated after few seconds.
 6. Click on `Export JSON` to save the generated triples in RDF format.
